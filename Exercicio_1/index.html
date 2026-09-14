@@ -4,26 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IPCA - Ensino Superior Público - Barcelos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logotipo">
-            <img src="./Imagem/UPCA.svg" alt="Logótipo - UPCA">
-        </div>
-        <form>
-            <label for="busca"></label>
-            <input type="search" id="busca">
-            <button type="submit">Enviar</button>
-        </form>
-        <nav class="navigation">
-            <ul class="nav-options">
-                <li>Estudar</li>
-                <li>I&D+I</li>
-                <li>Internacional</li>
-                <li>Viver</li>
-                <li>UPCA</li>
-            </ul>
-        </nav>
+    <header class="header">
+        <div class="header_container">
+            <div>
+                <img class="logotipo" src="./Imagem/UPCA.svg" alt="Logótipo - UPCA">
+            </div>
+            <div class="form_nav_container">
+                <form>
+                    <label for="busca"></label>
+                    <input type="search" id="busca">
+                    <button type="submit">Enviar</button>
+                </form>
+                <nav class="navigation">
+                    <div class="dropdown">
+                        <button class="dropbutton">Estudar
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown_conteudo">
+                            <a href="#">Cursos</a>
+                            <a href="#">+Formação</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbutton">I&D+I
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown_conteudo">
+                            <a href="#">Ecossistema de I&D</a>
+                            <a href="#">Portal do Conhecimento</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbutton">Internacional
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown_conteudo">
+                            <a href="#">Estudar no UPCA</a>
+                            <a href="#">Mobilidade</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbutton">Viver
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown_conteudo">
+                            <a href="#">Campus e Polos</a>
+                            <a href="#">Vida Académica</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="dropbutton">UPCA
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown_conteudo">
+                            <a href="#">Sobre UPCA</a>
+                            <a href="#">Órgãos</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>    
     </header>
+
+    <div class="article_container">
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/noticia_1.jpg">
+            </div>
+            <h5>UPCA reforça a internacionalização na EAIE em Glasgow</h5>
+            <div class="data">2026-09-11</div>
+        </article>
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/umadecada-ctesp-noticia.jpg">
+            </div>
+            <h5>Estudo nacional coloca a UPCA no primeiro lugar em novos estudantes de CTeSP</h5>
+            <div class="data">2026-09-09</div>
+        </article>
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/Dia-i-geral-noticia-scaled.jpg">
+            </div>
+            <h5>Dia i: integração dos novos estudantes decorre a 14 e 28 de setembro</h5>
+            <div class="data">2026-09-03</div>
+        </article>
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/MP-STEAM_noticia-scaled.jpg">
+            </div>
+            <h5>Candidaturas ao Mestrado Profissional em Tecnologias de Apoio à Educação STEAM prolongadas até 14 de setembro</h5>
+            <div class="data">2026-09-09</div>
+        </article>
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/noticia1.jpg">
+            </div>
+            <h5>UPCA marcou presença na final nacional do Poliempreende 2026</h5>
+            <div class="data">2026-09-09</div>
+        </article>
+        <article class="item">
+            <div class="img_container">
+                <img class="img adjust-list high-ratio" src="./Imagem/Call-Embaixadores-2026-2027_noticia-scaled.png">
+            </div>
+            <h5>Queres ser Embaixador/a UPCA em 2026/2027?</h5>
+            <div class="data">2026-09-09</div>
+        </article>
+    </div>
+
+    <div>
+        <p>Vá para o Google</p>
+        <a href="https://google.com" target="_blank">Google</a>
+    </div>
+    <div>
+        <p>Vá para o Youtube</p>
+        <a href="https://youtube.com">Youtube</a>
+    </div>
+    <div>
+        <p>Vá para o site do UPCA</p>
+        <a href="https://ipca.pt" target="_blank">UPCA</a>
+    </div>
+    <footer>
+        <div class="footer_container">
+            <img class="logotipo_2" width="172px" height="72px" src="./Imagem/upca-logo-white-pt.svg" alt="Logótipo - UPCA">
+            <img class="logotipo_2" src="./Imagem/poch-v2_1920x-white.png" alt="">
+        </div>
+    </footer>
 </body>
 </html>
